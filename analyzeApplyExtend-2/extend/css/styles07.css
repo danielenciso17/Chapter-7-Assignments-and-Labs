@@ -1,0 +1,53 @@
+/* CSS Reset */
+body, header, main, footer, h1, h3, section, article, aside, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+    background-color: #dfe7c4;
+}
+
+/* Style rule for header */
+header {
+    font-family: Verdana, Arial, sans-serif;
+    margin-top: 0.2em;
+    background-color: #628c45;
+    color: #dfe7c4;
+    padding: 2%;
+    text-align: center;
+}
+
+/* Style rule for main */
+main {
+    display: flex;
+}
+
+/* Style rule for article */
+article {
+    display: flex;
+    flex: 1;
+}
+
+/* Style rule for sections inside article */
+section.column {
+    flex: 1;
+    padding: 0 10px;
+}
+
+/* Style rule for aside */
+aside {
+    flex: 0 0 300px; /* Fixed width sidebar */
+    padding: 0 10px;
+}
+
+/* Style rule for footer */
+footer {
+    font-family: Verdana, Arial, sans-serif;
+    background-color: #628c45;
+    color: #dfe7c4;
+    padding: 10px;
+    text-align: center;
+}
